@@ -1,0 +1,24 @@
+research_trends_task:
+  description: "Research trending topics and hashtags for social media."
+  expected_output: "5 trending topics and 10 high-performing hashtags."
+  agent: researcher
+
+create_content_task:
+  description: "Generate engaging social media posts based on trends."
+  expected_output: "A social media post with captions and hashtags."
+  agent: writer
+
+predict_post_success_task:
+  description: "Analyze engagement and predict post performance."
+  expected_output: "A prediction report with engagement score."
+  agent: developer
+
+schedule_and_post_task:
+  description: "Schedule and publish content on Twitter, LinkedIn, Instagram."
+  expected_output: "Post scheduled successfully with confirmation links."
+  agent: developer
+
+manage_project_tasks:
+  description: "Automate Kanban board updates for content tasks."
+  expected_output: "Updated project board with assigned tasks and deadlines."
+  agent: developer
